@@ -1,0 +1,20 @@
+{
+  "home-page-title": "Smart Search Page",
+  "english-language": "English",
+  "currency": "$",
+  "polish-language": "Polish",
+  "german-language": "German",
+  "ukrainian-language": "Ukrainian",
+  "russian-language": "Russian",
+  "search-page-title": "Search Page",
+  "search-page-search-button": "Search",
+  "search-page-search-input": "Search",
+  "search-page-search-placeholder": "Search...",
+  "search-page-search-results": "Search Results",
+  "products-title": "Products",
+  "categories-title": "Categories",
+  "search-page-search-error": "Search Error",
+  "search-page-search-results-empty": "No search results",
+  "search-page-search-results-loading": "Search results are loading...",
+  "search-page-search-results-no-results": "No search results"
+}

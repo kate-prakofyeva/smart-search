@@ -1,0 +1,20 @@
+{
+  "home-page-title": "Главная страница",
+  "english-language": "Английский",
+  "currency": "₽",
+  "polish-language": "Польский",
+  "german-language": "Немецкий",
+  "ukrainian-language": "Украинский",
+  "russian-language": "Русский",
+  "search-page-title": "Страница поиска",
+  "search-page-search-button": "Поиск",
+  "search-page-search-input": "Поиск",
+  "search-page-search-placeholder": "Поиск...",
+  "search-page-search-results": "Результаты поиска",
+  "products-title": "Продукты",
+  "categories-title": "Категории",
+  "search-page-search-error": "Ошибка поиска",
+  "search-page-search-results-empty": "Нет результатов поиска",
+  "search-page-search-results-loading": "Результаты поиска загружаются...",
+  "search-page-search-results-no-results": "Нет результатов поиска"
+}

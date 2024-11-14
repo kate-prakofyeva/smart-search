@@ -1,0 +1,20 @@
+{
+  "home-page-title": "Головна сторінка",
+  "english-language": "Англійська",
+  "currency": "₴",
+  "polish-language": "Польська",
+  "german-language": "Німецька",
+  "ukrainian-language": "Українська",
+  "russian-language": "Російська",
+  "search-page-title": "Сторінка пошуку",
+  "search-page-search-button": "Пошук",
+  "search-page-search-input": "Пошук",
+  "search-page-search-placeholder": "Пошук...",
+  "search-page-search-results": "Результати пошуку",
+  "products-title": "Продукти",
+  "categories-title": "Категорії",
+  "search-page-search-error": "Помилка пошуку",
+  "search-page-search-results-empty": "Немає результатів пошуку",
+  "search-page-search-results-loading": "Результати пошуку завантажуються...",
+  "search-page-search-results-no-results": "Немає результатів пошуку"
+}

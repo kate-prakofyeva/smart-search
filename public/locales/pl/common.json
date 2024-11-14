@@ -1,0 +1,20 @@
+{
+  "home-page-title": "Strona główna",
+  "english-language": "Angielski",
+  "currency": "zł",
+  "polish-language": "Polski",
+  "german-language": "Niemiecki",
+  "ukrainian-language": "Ukraiński",
+  "russian-language": "Rosyjski",
+  "search-page-title": "Strona wyszukiwania",
+  "search-page-search-button": "Szukaj",
+  "search-page-search-input": "Szukaj",
+  "search-page-search-placeholder": "Szukaj...",
+  "search-page-search-results": "Wyniki wyszukiwania",
+  "products-title": "Produkty",
+  "categories-title": "Kategorie",
+  "search-page-search-error": "Błąd wyszukiwania",
+  "search-page-search-results-empty": "Brak wyników wyszukiwania",
+  "search-page-search-results-loading": "Wyniki wyszukiwania są ładowane...",
+  "search-page-search-results-no-results": "Brak wyników wyszukiwania"
+}
