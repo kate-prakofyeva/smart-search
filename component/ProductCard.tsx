@@ -1,6 +1,7 @@
 import { Product } from '@/types/product';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
+import NoImage from '../public/no-image-icon.png';
 
 type ProductCardProps = {
   product: Product;
@@ -11,13 +12,25 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
   return (
     <div className="h-full flex flex-col p-4 justify-between max-w-sm rounded overflow-hidden border-gray-200 rounded-lg shadow">
-      <Image
-        width={200}
-        height={200}
-        src={product.thumbnail?.src}
-        alt={product.name}
-        className="w-52 w-52 mr-auto ml-auto rounded h-40 mb-2"
-      />
+      {product.thumbnail?.src ? (
+        <Image
+          width={200}
+          height={200}
+          src={product.thumbnail?.src}
+          alt={product.name}
+          className="w-52 w-52 mr-auto ml-auto rounded h-40 mb-2"
+        />
+      ) : (
+        <div className="w-52 h-40 mr-auto ml-auto rounded bg-gray-100 mb-2">
+          <Image
+            src={NoImage}
+            alt={product.name}
+            width={200}
+            height={200}
+            className="w-52 w-52 mr-auto ml-auto rounded h-40 mb-2"
+          />
+        </div>
+      )}
 
       <div className="h-52 overflow-hidden mb-4">
         <p className="font-bold text-sm text-blue-700 mb-2 line-clamp-1">

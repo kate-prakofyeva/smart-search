@@ -79,14 +79,23 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
   const categoriesData = await categoriesResponse.json();
 
   const products =
-    productsData.data?.items?.map((product: Product) => ({
-      ...product,
-    })) || [];
+    productsData.data?.items?.reduce((acc: Product[], product: Product) => {
+      if (!acc.find((p) => p.id === product.id)) {
+        acc.push(product);
+      }
+      return acc;
+    }, []) || [];
 
   const categories =
-    categoriesData.data?.items?.map((category: Category) => ({
-      ...category,
-    })) || [];
+    categoriesData.data?.items?.reduce(
+      (acc: Category[], category: Category) => {
+        if (!acc.find((c) => c.id === category.id)) {
+          acc.push(category);
+        }
+        return acc;
+      },
+      []
+    ) || [];
 
   return {
     props: {
